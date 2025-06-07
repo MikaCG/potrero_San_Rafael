@@ -1,0 +1,94 @@
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+body {
+    background-color: #FEEDB9;    
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #60491B;
+    text-align: center;    
+}
+
+h2 {
+    color: #765B21;
+    text-align: center;
+}
+
+h3 {
+    color: #8B6C27;
+}
+
+hr {
+    height: 5px; /* Ajusta la altura */
+    background-color: #E3B740;
+    border: none; /* Elimina el borde predeterminado */
+}
+
+p {
+    color: #5D2822;
+    text-align: justify;
+    font-family: "Carme", sans-serif; /* Diseñada específicamente para párrafos largos de texto */
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul, ol {
+    color: #303943;
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+img {
+    border-radius: 11px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+pre {
+    font-family: monospace;
+    background-color: #FFE9E6; /* Color de fondo claro */
+}
+
+a {
+    color: #1A73E8; /* Color azul */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease; /* Transición suave */
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* <weight>: Use a value from 300 to 800 */
+    font-style: normal;
+}
+
+a:hover {
+    color: #D93025; /* Color rojo al pasar el cursor */
+    background-color: #FF9B7CAA;   
+    text-decoration: underline;
+}
+
+a:active {
+    color: #FF4000; /* Color naranja al hacer clic */
+    border: 2px solid #FF4000; /* Borde naranja al hacer clic */    
+}
